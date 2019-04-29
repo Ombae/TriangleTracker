@@ -12,6 +12,7 @@ body{
 }
 #head{
   color: rgb(150, 10, 30);
+  float: left;
 }
 .heads{
   color: rgb(150, 10, 30);
