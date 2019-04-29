@@ -1,0 +1,17 @@
+body{
+  width: 70%;
+  margin: 0px 15%;
+  background-color: rgb(99, 124, 51);
+  color: white;
+  font-family: 'Source Serif Pro', serif;
+}
+fieldset{
+  height: 400px;
+  border-radius: 10px;
+}
+fieldset input{
+  display: inline;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
