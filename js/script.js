@@ -5,13 +5,13 @@ function tracker(){
 
   if(sideX + sideY > sideZ && sideX + sideZ > sideY && sideY + sideZ > sideX){
     if(sideX === sideY && sideX === sideZ && sideY === sideZ){
-      document.getElementById('text').innerHTML = "This is an Equilateral Triangle!";
+      document.getElementById('text').innerHTML = "This is an <strong>Equilateral Triangle!</strong>";
     }
     else if(sideX === sideY || sideX === sideZ || sideY === sideZ){
-      document.getElementById('text').innerHTML = "This is an Isosceles Triangle!";
+      document.getElementById('text').innerHTML = "This is an <strong>Isosceles Triangle!</strong>";
     }
     else{
-      document.getElementById('text').innerHTML = "This is a Scalene Triangle!";
+      document.getElementById('text').innerHTML = "This is a <strong> Scalene Triangle!</strong>";
     }
   }
   else{
