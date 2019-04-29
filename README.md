@@ -12,6 +12,37 @@ This triangle tracker lets a user input values then it determines whether those 
 * Open your browser and enter this link to access the landing page of the app.. https://ombae.github.io/TriangleTracker/
 * Enter your values to track your triangles.
 
+##BDD
+Below is a BDD table that shows expected behaviour of various input data and their expected output.
+
+<table>
+  <tr>
+    <th>BEHAVIOUR</th>
+    <th>INPUTS</th>
+    <th>OUTPUT</th>
+  </tr>
+  <tr>
+  <td>Check if Triangler</td>
+  <td>9, 4, 3</td>
+  <td>Not A Triangle</td>
+  </tr>
+  <tr>
+  <td>Check if Equilateral</td>
+  <td>12, 12, 12</td>
+  <td>Equilateral Triangle</td>
+  </tr>
+  <tr>
+  <td>Check if isosceles</td>
+  <td>8, 10, 8</td>
+  <td>Isosceles Triangle</td>
+  </tr>
+  <tr>
+    <td>Check if Scalene</td>
+    <td>10, 14, 12</td>
+    <td>Scalene Triangle</td>
+  </tr>
+</table>
+
 ## Known Bugs
 This app currently has no known bugs with this app at this stage of development. Should one come across a bug, kindly give feedback.
 
