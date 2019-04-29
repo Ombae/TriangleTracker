@@ -10,6 +10,16 @@ body{
   height: 300px;
   border-radius: 20px;
 }
+#head{
+  color: rgb(150, 10, 30);
+}
+.heads{
+  color: rgb(150, 10, 30);
+}
+#enter{
+  font-weight:
+  
+}
 fieldset{
   height: 400px;
   border-radius: 10px;
